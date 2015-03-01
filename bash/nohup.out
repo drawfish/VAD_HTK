@@ -1,0 +1,4 @@
+Start HMM estimate :hmm1
+mkfifo: cannot create fifo `tmpThread': File exists
+Finish HMM estimate :hmm1
+Start HMM estimate :hmm2
