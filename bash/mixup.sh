@@ -2,6 +2,7 @@
 srchmm=$1
 targethmm=$2
 mixupcfg=$3
+monophonetype=$4
 
 source ../settings
 source ../envconf
@@ -25,13 +26,13 @@ do
 	$HTKTOOL/HHEd  -A -D -T 1 -w $HMMDIR/mix$line/mix$line'hmm0'/RMF.hmm \
 					-H $HMMDIR/mix$preline/mix$preline'hmm4'/RMF.hmm \
 					$WORKDIR/mixuphed/mixupstep$line.hed \
-					$MONOPHONEDIR/monophonesp.ph \
+					$MONOPHONEDIR/$monophonetype \
 					>$LOGDIR/MIXUP/HHEd.log 2>$ERRORDIR/MIXUP/HHED_mix$line.err
 	for ((i=1;i<=4;i++))
 	do
 		sh $BASHSCRP/hmmestimate.sh $HMMDIR/mix$line/mix$line'hmm'$((i-1)) \
 									$HMMDIR/mix$line/mix$line'hmm'$i aligned$MAXFORCEALIGN.lab \
-									$MONOPHONEDIR/monophonesp.ph
+									$MONOPHONEDIR/$monophonetype
 	done
 	preline=$line
 done < $CONFIGDIR/mixstep_cfg

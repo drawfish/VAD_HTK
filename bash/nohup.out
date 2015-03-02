@@ -1,4 +1,111 @@
-Start HMM estimate :hmm1
+Start mix up!
+Mix up : mix2
+Start HMM estimate :mix2hmm1
+rm: cannot remove `/home/duisheng/code/workspace/ChineseDB/hmm/mix2/mix2hmm1/*.acc': No such file or directory
+Finish HMM estimate :mix2hmm1
+Start HMM estimate :mix2hmm2
+rm: cannot remove `/home/duisheng/code/workspace/ChineseDB/hmm/mix2/mix2hmm2/*.acc': No such file or directory
+Finish HMM estimate :mix2hmm2
+Start HMM estimate :mix2hmm3
+rm: cannot remove `/home/duisheng/code/workspace/ChineseDB/hmm/mix2/mix2hmm3/*.acc': No such file or directory
+Finish HMM estimate :mix2hmm3
+Start HMM estimate :mix2hmm4
+rm: cannot remove `/home/duisheng/code/workspace/ChineseDB/hmm/mix2/mix2hmm4/*.acc': No such file or directory
+Finish HMM estimate :mix2hmm4
+Mix up : mix4
+Start HMM estimate :mix4hmm1
+rm: cannot remove `/home/duisheng/code/workspace/ChineseDB/hmm/mix4/mix4hmm1/*.acc': No such file or directory
+Finish HMM estimate :mix4hmm1
+Start HMM estimate :mix4hmm2
+rm: cannot remove `/home/duisheng/code/workspace/ChineseDB/hmm/mix4/mix4hmm2/*.acc': No such file or directory
+Finish HMM estimate :mix4hmm2
+Start HMM estimate :mix4hmm3
+rm: cannot remove `/home/duisheng/code/workspace/ChineseDB/hmm/mix4/mix4hmm3/*.acc': No such file or directory
+Finish HMM estimate :mix4hmm3
+Start HMM estimate :mix4hmm4
+rm: cannot remove `/home/duisheng/code/workspace/ChineseDB/hmm/mix4/mix4hmm4/*.acc': No such file or directory
+Finish HMM estimate :mix4hmm4
+Mix up : mix6
+Start HMM estimate :mix6hmm1
+rm: cannot remove `/home/duisheng/code/workspace/ChineseDB/hmm/mix6/mix6hmm1/*.acc': No such file or directory
+Finish HMM estimate :mix6hmm1
+Start HMM estimate :mix6hmm2
+rm: cannot remove `/home/duisheng/code/workspace/ChineseDB/hmm/mix6/mix6hmm2/*.acc': No such file or directory
+Finish HMM estimate :mix6hmm2
+Start HMM estimate :mix6hmm3
+rm: cannot remove `/home/duisheng/code/workspace/ChineseDB/hmm/mix6/mix6hmm3/*.acc': No such file or directory
+Finish HMM estimate :mix6hmm3
+Start HMM estimate :mix6hmm4
+rm: cannot remove `/home/duisheng/code/workspace/ChineseDB/hmm/mix6/mix6hmm4/*.acc': No such file or directory
+Finish HMM estimate :mix6hmm4
+Mix up : mix8
+Start HMM estimate :mix8hmm1
+rm: cannot remove `/home/duisheng/code/workspace/ChineseDB/hmm/mix8/mix8hmm1/*.acc': No such file or directory
+Finish HMM estimate :mix8hmm1
+Start HMM estimate :mix8hmm2
+rm: cannot remove `/home/duisheng/code/workspace/ChineseDB/hmm/mix8/mix8hmm2/*.acc': No such file or directory
+Finish HMM estimate :mix8hmm2
+Start HMM estimate :mix8hmm3
+rm: cannot remove `/home/duisheng/code/workspace/ChineseDB/hmm/mix8/mix8hmm3/*.acc': No such file or directory
+Finish HMM estimate :mix8hmm3
+Start HMM estimate :mix8hmm4
+rm: cannot remove `/home/duisheng/code/workspace/ChineseDB/hmm/mix8/mix8hmm4/*.acc': No such file or directory
+Finish HMM estimate :mix8hmm4
+Mix up : mix10
+Start HMM estimate :mix10hmm1
+rm: cannot remove `/home/duisheng/code/workspace/ChineseDB/hmm/mix10/mix10hmm1/*.acc': No such file or directory
+Finish HMM estimate :mix10hmm1
+Start HMM estimate :mix10hmm2
+rm: cannot remove `/home/duisheng/code/workspace/ChineseDB/hmm/mix10/mix10hmm2/*.acc': No such file or directory
+Finish HMM estimate :mix10hmm2
+Start HMM estimate :mix10hmm3
+rm: cannot remove `/home/duisheng/code/workspace/ChineseDB/hmm/mix10/mix10hmm3/*.acc': No such file or directory
+Finish HMM estimate :mix10hmm3
+Start HMM estimate :mix10hmm4
+rm: cannot remove `/home/duisheng/code/workspace/ChineseDB/hmm/mix10/mix10hmm4/*.acc': No such file or directory
+Finish HMM estimate :mix10hmm4
+Mix up : mix12
+Start HMM estimate :mix12hmm1
+rm: cannot remove `/home/duisheng/code/workspace/ChineseDB/hmm/mix12/mix12hmm1/*.acc': No such file or directory
+Finish HMM estimate :mix12hmm1
+Start HMM estimate :mix12hmm2
+rm: cannot remove `/home/duisheng/code/workspace/ChineseDB/hmm/mix12/mix12hmm2/*.acc': No such file or directory
+Finish HMM estimate :mix12hmm2
+Start HMM estimate :mix12hmm3
+rm: cannot remove `/home/duisheng/code/workspace/ChineseDB/hmm/mix12/mix12hmm3/*.acc': No such file or directory
+Finish HMM estimate :mix12hmm3
+Start HMM estimate :mix12hmm4
+rm: cannot remove `/home/duisheng/code/workspace/ChineseDB/hmm/mix12/mix12hmm4/*.acc': No such file or directory
+Finish HMM estimate :mix12hmm4
+Mix up : mix14
+Start HMM estimate :mix14hmm1
+rm: cannot remove `/home/duisheng/code/workspace/ChineseDB/hmm/mix14/mix14hmm1/*.acc': No such file or directory
+Finish HMM estimate :mix14hmm1
+Start HMM estimate :mix14hmm2
+rm: cannot remove `/home/duisheng/code/workspace/ChineseDB/hmm/mix14/mix14hmm2/*.acc': No such file or directory
+Finish HMM estimate :mix14hmm2
+Start HMM estimate :mix14hmm3
+rm: cannot remove `/home/duisheng/code/workspace/ChineseDB/hmm/mix14/mix14hmm3/*.acc': No such file or directory
+Finish HMM estimate :mix14hmm3
+Start HMM estimate :mix14hmm4
+Start mix up!
+Mix up : mix2
+Start HMM estimate :mix2hmm1
+rm: cannot remove `/home/duisheng/code/workspace/ChineseDB/log/HMMESTIMATE/mix2hmm1': Directory not empty
+rm: cannot remove `/home/duisheng/code/workspace/ChineseDB/error/HMMESTIMATE/mix2hmm1': Directory not empty
 mkfifo: cannot create fifo `tmpThread': File exists
-Finish HMM estimate :hmm1
-Start HMM estimate :hmm2
+Finish HMM estimate :mix2hmm1
+Start HMM estimate :mix2hmm2
+Finish HMM estimate :mix2hmm2
+Start HMM estimate :mix2hmm3
+Finish HMM estimate :mix2hmm3
+Start HMM estimate :mix2hmm4
+Finish HMM estimate :mix2hmm4
+Mix up : mix4
+Start HMM estimate :mix4hmm1
+Finish HMM estimate :mix4hmm1
+Start HMM estimate :mix4hmm2
+Finish HMM estimate :mix4hmm2
+Start HMM estimate :mix4hmm3
+Finish HMM estimate :mix4hmm3
+Start HMM estimate :mix4hmm4
