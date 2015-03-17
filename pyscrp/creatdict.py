@@ -37,7 +37,7 @@ def creatVADdict(olddictfile,newdictfile,newdictspsilfile):
         vowel='w';
         if phone[0].find('\(')==-1:
             newdict.write('%s\t\t%s\n'%(phone[0],vowel));
-#            newdictspsil.write('%s\t\t%s sp \n'%(phone[0],vowel));
+            newdictspsil.write('%s\t\t%s sp \n'%(phone[0],vowel));
             newdictspsil.write('%s\t\t%s sil \n'%(phone[0],vowel));
             newdictspsil.write('%s\t\t%s \n'%(phone[0],vowel));
     olddict.close();

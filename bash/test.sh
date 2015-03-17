@@ -117,7 +117,7 @@ mkdir $TESTRESULT
 for mfccpaths in $TESTMFCCPATH/*
 do 
 	result=$TESTRESULT/`basename $mfccpaths`
-	$HTKTOOL/HVite -H $HMMDIR/hmm22/RMF.hmm -S $mfccpaths \
+	$HTKTOOL/HVite -H $HMMDIR/hmm13/RMF.hmm -S $mfccpaths \
 	-i $result -w $TESTNETDIR/wdnet.net \
 	-p 0.0 -s 5.0 $TESTDICT/test.dic $TESTLIST/phonelist.ph
 done
